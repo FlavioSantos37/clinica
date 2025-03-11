@@ -62,11 +62,13 @@ ul{
 .tratamento{
     display: flex;
     justify-content: center;
+    margin-top: 25px ;
+    margin-bottom: 45px;
 }
 
 .trat{
     width: 300px;
-    background-color: aqua;
+    background-color: #01acc6;
     height: 300px;
     margin: 5px;
     text-align: center;
@@ -75,12 +77,15 @@ ul{
     }
 
 .trat img{
-    width: 90px;
-    height: 90px;
+    width: 130px;
+    height: 130px;
     margin-top: 50px;
-    border-radius: 45px;
+    border-radius: 90px;
+    background-color: white;
     
 }
+
+
 .t{
    
     font-family: "Montserrat", Sans-serif;
@@ -97,9 +102,10 @@ ul{
     color: white;
     
     
+    
 }
 .tt{
-    color:blueviolet;
+    color:white;
     font-size: 20px;
     font-weight:400;
     padding-top: 25px;
@@ -114,12 +120,12 @@ ul{
     margin-bottom: 20px;
 }
 .quemsomostexto{
-    width: 40%;
+    width: 60%;
     height:auto;
     /* background-color: red; */
     margin-top: 40px;
-    
-    font-size: 25px;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 20px;
     
 }
 .quemsomosimg{
@@ -128,7 +134,7 @@ ul{
     /* background-color: blueviolet; */
 }
 .quemsomosimg img{
-    width: 50%;
+    width: 90%;
     border-radius: 10px;
   
 }
