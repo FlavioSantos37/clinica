@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    
+    <script src="javascript.js"></script>
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -21,20 +21,20 @@
             <img src="./img/topo_sorriso-ativo-odontologia.png">
 
         </div>
-
-        <div class="menu">
-            <ul>
-                <li class="me"><a href="#">Home</a></li>
-                <li class="me"><a href="#"> Tratamentos</a></li>
-                <li class="me"><a href="#"> Quem Somos</a></li>
-                <li class="me"><a href="#">Unidades</a></li>
-              
-            </ul>
-        </div>
         
+          <div class="menu">
+              <ul>
+                  <li class="me"><a href="#Home" class="suave">Home</a></li>
+                  <li class="me"><a href="#tratamentos"class="suave"> Tratamentos</a></li>
+                  <li class="me"><a href="#quemsomos" class="suave"> Quem Somos</a></li>
+                  <li class="me"><a href="#localizacao" class="suave">Unidades</a></li>
+                
+              </ul>
+          </div>
+       
             
         
-        <div class="container2">
+        <div id="Home" class="container2">
            
             <div class="carousel1">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -65,7 +65,7 @@
                 </div>
             </div>
             
-            <p class="t">TRATAMENTOS QUE REALIZAMOS</p>
+            <p id="tratamentos" class="t">TRATAMENTOS QUE REALIZAMOS</p>
             <div class="tratamento">
                
                <div class="trat">
@@ -100,7 +100,7 @@
 
             </div>
 
-            <p class="t"> QUEM SOMOS</p>
+            <p  id="quemsomos" class="t"> QUEM SOMOS</p>
             <div class="quemsomos">
               <div class="quemsomosimg">
                 <img src="./img/dentista-de-confianca.jpg">
@@ -118,8 +118,15 @@
                 <p class="agendatexto">
                   Agende sua Consulta
                 </p>
+                <div class="btn">
+                  <button class="btn1" type="submit"><a aria-label="Chat on WhatsApp" href="https://wa.me/+5511982581253"
+                          target="_blank">AGENDAMENTO <div><img class="zap" src="./img/whatsapp.png">
+  
+                      </a>
+  
+                </div></button>
               </div>
-            <p class="t">LOCALIZAÇÃO</p>
+            <p id="localizacao" class="t">LOCALIZAÇÃO</p>
               
                 <h1 class="h1">CLÍNICA ODONTOLÓGICA ODONTOCOMPANY</h1>
               <div class="localizacao">
