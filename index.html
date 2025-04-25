@@ -12,17 +12,25 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     
     <title>Sorriso Real</title>
+    
 </head>
 <body>
     
-
+  
         <div class="topo">
 
             <img src="./img/topo_sorriso-ativo-odontologia.png">
 
         </div>
         
-          <div class="menu">
+          <head >
+            <div class="hamburguer">
+                <button class="open-btn" onclick="toggleMenu()">☰</button>
+            </div>
+          
+            <div id="menu" class="menu">
+             
+              <button class="close-btn" onclick="toggleMenu()">×</button>
               <ul>
                   <li class="me"><a href="#Home">Home</a></li>
                   <li class="me"><a href="#tratamentos"> Tratamentos</a></li>
@@ -31,6 +39,7 @@
                 
               </ul>
           </div>
+          </head>
        
             
         
@@ -104,7 +113,7 @@
             <div class="quemsomos">
               <div class="quemsomosimg">
                 <img src="./img/dentista-de-confianca.jpg">
-            </div>
+              </div>
                 <div class="quemsomostexto">
                     
                         Nossa clínica foi criada visando atender as necessidades de todas as pessoas, garantindo a máxima qualidade em todas as especialidades oferecidas.Por isso aqui na Leal Clínic você encontra profissionais especializados, responsáveis e experientes.Todos nossos pacientes contam com uma equipe treinada em oferecer a melhor experiência de atendimento.oferecidas.Por isso aqui na Leal Clínic você encontra profissionais especializados, responsáveis e experientes.Todos nossos pacientes contam com uma equipe treinada em oferecer a melhor experiência de atendimento.
@@ -113,7 +122,8 @@
                 </div>
                  
                 
-              </div>
+            </div>
+
               <div class="agendamento">
                 <p class="agendatexto">
                   Agende sua Consulta
@@ -126,36 +136,40 @@
   
                 </div></button>
               </div>
-            <p id="localizacao" class="t">LOCALIZAÇÃO</p>
+
+
+                <p id="localizacao" class="t">LOCALIZAÇÃO</p>
               
                 <h1 class="h1">CLÍNICA ODONTOLÓGICA ODONTOCOMPANY</h1>
-              <div class="localizacao">
+              
+                <div class="localizacao">
 
-                <div class="lj">
-                  <img  class="lojaimg" src="./img/loja.png" alt="" srcset="">
-             
+                  <div class="lj">
+                    <img  class="lojaimg" src="./img/loja.png" alt="" srcset="">
+               
+    
+                  </div>
+                  <div class="map">
+                    <p class="terminal">TERMINAL TIRADENTES - SP</p>
+                    <img src="./img/mapa.png">
+                    <p class="avenida"> Avenida dos Metalurgicos n°100 / Próximo Terminal Cidade Tiradentes<br><br>
+                      Telefone: (11)9999-8888<br><br>Horario de Funcionamento:<br><br>
+                      Segunda a Sextas das 08:00hs as 17:00hs<br><br> 
+                      Sabados das 08:00hs as 15:00hs<br><br>
+                      Domingos e Feriados: Fechado 
+                    </p>
+                  </div>
+                  
+                  
   
                 </div>
-                <div class="map">
-                  <p class="terminal">TERMINAL TIRADENTES - SP</p>
-                  <img src="./img/mapa.png">
-                  <p class="avenida"> Avenida dos Metalurgicos n°100 / Próximo Terminal Cidade Tiradentes<br><br>
-                    Telefone: (11)9999-8888<br><br>Horario de Funcionamento:<br><br>
-                    Segunda a Sextas das 08:00hs as 17:00hs<br><br> 
-                    Sabados das 08:00hs as 15:00hs<br><br>
-                    Domingos e Feriados: Fechado 
-                  </p>
-                </div>
-                
-                
-
-              </div>
-
 
               
 
             
-           
+                <footer>
+                  <p class="desenvolvido">Sorriso Real • 2014 © Todos os direitos reservados • Desenvolvedor: Flavio Santos</p>
+                </footer>   
 
         </div>
 
@@ -165,7 +179,5 @@
  <script src="javascript.js"></script>
 </body>
 
-<footer>
-  <p class="desenvolvido">Sorriso Real • 2014 © Todos os direitos reservados • Desenvolvedor: Flavio Santos</p>
-</footer>
+
 </html>
