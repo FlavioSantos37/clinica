@@ -1,11 +1,20 @@
 *{
-    margin: 0;
+
     padding: 0;
+    box-sizing: border-box;
 }
 
 
+
+.container2{
+
+    width: 50%;
+    height: auto;
+   margin: 0px auto;
+
+}
 .topo {
-    width: 100%;
+    width: 50%;
     height: auto;
     background-color: rgb(64, 193, 197);
 
@@ -27,6 +36,7 @@
     position:fixed;
 
 }
+
 .close-btn,
     .open-btn {
         display: none;
@@ -40,16 +50,16 @@ ul{
 
 .carousel1{
     width: 80%;
-    height: 70px;
+    height: 500px; ;
     margin: 0px auto;
     padding-top: 100px;
-    margin-bottom: 20%;
-    z-index:1;
 
+    /* background-color: #01acc6; */
 }
 .d-block-w-100{
     width: 100%;
     height: 350px;
+
 
 }
 
@@ -73,15 +83,16 @@ ul{
 .tratamento{
     display: flex;
     justify-content: center;
-    margin-top: 25px ;
-    margin-bottom: 45px;
+    margin-top: 5px ;
+    width: 100%;
+    /* background-color: red; */
 }
 
 .trat{
-    width: 300px;
+    width: 400px;
     background-color: #01acc6;
     height: 300px;
-    margin: 50px 5px;
+    margin: 15px 5px;
     text-align: center;
     border-radius: 5px 5px 5px 5px;
 
@@ -101,15 +112,15 @@ ul{
 .t{
 
     font-family: "Montserrat", Sans-serif;
-    font-size: 17px;
-    font-weight: 400;
+    font-size: 15px;
+    font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: blueviolet;
     height: 40px;
-    width: 25%;
-    margin: 13px 0px 5px 31px;
+    width: 35%;
+    margin: 50px 0px 5px 31px;
     border-radius: 2px;
     color: white;
 
@@ -118,13 +129,13 @@ ul{
 }
 .tt{
     color:white;
-    font-size: 20px;
-    font-weight:400;
+    font-size: 15px;
+    font-weight:300;
     padding-top: 25px;
     font-family:"Montserrat", Sans-serif;
 }
 .quemsomos{
-    width: 80%;
+    width: 100%;
     height: auto;
     margin: 15px auto 10px;
     /* background-color: aqua; */
@@ -135,14 +146,15 @@ ul{
     width: 60%;
     height:auto;
     /* background-color: red; */
-    margin-top: 40px;
+    margin-top: 0px;
     font-family: "Montserrat", Sans-serif;
     font-size: 20px;
+    text-align: left;
 
 }
 .quemsomosimg{
     height: 50%;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 50px;
     text-align: center;
     /* background-color: blueviolet; */
@@ -154,6 +166,7 @@ ul{
 }
 .agendamento{
   margin: 0px auto;
+
   background-color: rgb(0, 255, 85);
   width: 100%;
   height: 120px;
@@ -231,10 +244,12 @@ ul{
 }
 
 .localizacao{
+
     display: flex;
     align-items: center;
     /* background-color: violet; */
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
+
 }
 .map img{
     width: 50px;
@@ -249,15 +264,16 @@ ul{
 }
 .terminal{
     /* background-color: red; */
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 10px;
+    margin-top: 100px;
 }
 
 .lj{
 
     margin-top: 50px;
     /* background-color: rgb(0, 255, 64); */
-    margin-left: 150px;
+    margin-left: 40px;
 
 }
 .lojaimg{
@@ -271,7 +287,26 @@ ul{
 .avenida{
     margin-top: 15px;
     font-weight: 600;
+    /* background-color: blueviolet; */
 }
+footer{
+    background-color: blueviolet;
+    height: 50px;
+    padding-top:1%;
+
+
+}
+.desenvolvido{
+    color: white;
+    text-align: center;
+    margin: 0px auto;
+
+    font-weight: 500;
+
+
+
+}
+
 
 @media screen and (max-width:999px) {
 
@@ -279,23 +314,33 @@ ul{
     /* ul{
         display: none;
     } */
-
+     .container2{
+        width: 100%;
+        /* background-color: red; */
+     }
+    .topo img{
+        width: 100%;
+        height: auto;
+        display: block;
+        position:fixed;
+        margin-top: -95px;
+    }
     .me{
         width: 50%;
-        height: 55px;
+        height: 0px;
         /* background-color: red; */
     }
     .hamburguer{
         background-color: blueviolet;
         width: 100%;
-        height: 60px;
-       margin-top: -90px;
-       position: fixed;
-    
-       
+        height: 50px;
+        margin-top: 1x;
+        position: fixed;
         z-index: 100px;
-        
-        
+
+
+
+
     }
     .carousel1{
         width: 100%;
@@ -313,7 +358,7 @@ ul{
         overflow-x: hidden;
         transition: 0.3s;
         text-align: left;
-        margin-top: 60px;
+        margin-top: 95px;
     }
 
     .menu a {
@@ -351,19 +396,19 @@ ul{
         color:#ffffff;
         margin: 10px 10px 10px 10px;
         background-color:blueviolet;
-        
+
     }
     .open-btn:focus {
         outline: none;
     }
 
-    .container {
+    /* .container {
         margin-left: 0px;
         transition: margin-left 0.3s;
         padding: 0px;
 
-    }
-    
+    } */
+
     .close-btn {
         position: absolute;
         top: 10px;
@@ -394,15 +439,15 @@ ul{
         margin-left: 5px;
         font-weight: 700;
         margin-top: 90px;
-        
-        
-        
+
+
+
 
     }
     .tratamento{
         display: block;
         /* background-color: red; */
-      
+
 
 
 
@@ -417,7 +462,7 @@ ul{
     .quemsomos{
         display:block ;
         width: 100%;
-        
+
     }
     .quemsomostexto{
         width: 100%;
@@ -456,27 +501,10 @@ ul{
         margin: 0px 21px;
     }
     footer{
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 
 
 
 
-.desenvolvido{
-    color: white;
-    text-align: center;
-    padding-top: 15px;
-    font-weight: 500;
-
-
-}
-footer{
-    background-color: blueviolet;
-    width: 100%;
-    height: 50px;
-
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
