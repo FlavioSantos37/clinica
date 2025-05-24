@@ -16,13 +16,13 @@
 .topo {
     width: 50%;
     height: auto;
-    background-color: rgb(64, 193, 197);
+    /* background-color: rgb(64, 193, 197); */
 
 }
 
-.topo img{
+.topo1 img{
     width: 100%;
-    height: auto;
+    height: 50px;
     display: none;
 }
 
@@ -307,6 +307,17 @@ footer{
 
 }
 
+.fvo {
+    text-decoration: none;
+    color: #ffffff;
+  }
+.fvo:hover{
+     color: #000000; 
+        text-decoration: none;
+        transition: 0.5s;
+        
+        opacity: 0.7;}
+
 
 @media screen and (max-width:999px) {
 
@@ -316,15 +327,23 @@ footer{
     } */
      .container2{
         width: 100%;
-        /* background-color: red; */
+        height: 550px;
+        /* background-color: rgb(21, 22, 22); */
+        
      }
-    .topo img{
+
+     .topo{
+        /* background-color: red; */
         width: 100%;
         height: auto;
-        display: block;
-        position:fixed;
-        margin-top: -95px;
-    }
+        padding-bottom:1px;
+     }
+     .topo1 img{
+        width: 100%;
+        height: auto;
+        display: inline;
+     }
+   
     .me{
         width: 50%;
         height: 0px;
@@ -332,11 +351,15 @@ footer{
     }
     .hamburguer{
         background-color: blueviolet;
-        width: 100%;
-        height: 50px;
-        margin-top: 1x;
-        position: fixed;
-        z-index: 100px;
+        width:9%;
+        height: 40px;
+       
+        left: 150px;
+        margin-bottom: 10px;
+        border-radius: 2px;
+        
+      
+        
 
 
 
@@ -347,18 +370,24 @@ footer{
         display: none;
 
     }
+    .teste1{
+        width: 100%;
+        position: fixed;
+        
+     
+    }
     .menu{
         height: 50%;
         width: 0%;
-        position: fixed;
-        top: 0;
-        left: 0;
+        
+        top: 0px;
+        left:0px;
 
         background-color:blueviolet;
         overflow-x: hidden;
         transition: 0.3s;
         text-align: left;
-        margin-top: 95px;
+        
     }
 
     .menu a {
@@ -389,12 +418,13 @@ footer{
     }
 
     .open-btn {
+        width: 50%;
         font-size: 24px;
         cursor: pointer;
         background: none;
         border: none;
         color:#ffffff;
-        margin: 10px 10px 10px 10px;
+        margin: 0px auto;
         background-color:blueviolet;
 
     }
@@ -436,9 +466,10 @@ footer{
         width: 50%;
         height: 50px;
         font-size: 11px;
-        margin-left: 5px;
+        margin: 25px auto;
+        /* background-color: red; */
         font-weight: 700;
-        margin-top: 90px;
+       
 
 
 
@@ -446,16 +477,18 @@ footer{
     }
     .tratamento{
         display: block;
-        /* background-color: red; */
+        /* background-color: rgb(123, 255, 0); */
+        height: auto;
+        
 
 
 
 
 
-        /* background-color: red; */
-
+        
     }
     .trat{
+        width: 80%;
         margin: 0 auto;
         margin-bottom: 10px;
     }
@@ -468,6 +501,11 @@ footer{
         width: 100%;
         margin: 9px;
         font-size: 15px;
+    }
+
+    .agendamento{
+        /* background-color: rgb(8, 3, 3); */
+        
     }
 
     .h1{
